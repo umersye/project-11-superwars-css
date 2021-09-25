@@ -1,4 +1,53 @@
-.footer{
-  margin-left : 80px;
-  font-size : 18px;
+.container
+{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.players
+{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 20px;
+  justify-content: space-between;  
+}
+.players>div
+{
+  
+  padding: 5px;
+  border-radius: 10px;
+  text-align: center;
+  width: 150px;
+  height: 300px;
+}
+p
+{
+  text-align: center;
+}
+
+#points 
+{
+  text-emphasis:bold;
+  font-size: 50px;
+  text-align: center;
+}
+#hero
+{
+  font-weight: 400;
+}
+#point{
+  margin-top: 0%;
+  text-emphasis:bold;
+  font-size: 50px;
+  text-align: center;
+}
+#div1,#div2,#div4,#div5{
+
+  border-color:lightgray;
+
+  box-shadow: 0 0 2px 2px #ccc;
+
+  
+
 }
